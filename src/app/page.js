@@ -1,8 +1,6 @@
-import Link from "next/link"
-
 export default async function Home() {
   return (
-    <section className="flex flex-wrap py-[100px] h-fit bg-black px-10 sm:px-16 md:px-28 items-center">
+    <section className="flex flex-wrap py-[100px] h-fit bg-black items-center">
       <div className="w-full lg:w-1/3 lg:block hidden">
         <img className="object-contain object-center w-full h-full" src="\profile.png"></img>
       </div>

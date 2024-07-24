@@ -1,5 +1,5 @@
 'use client'
-
+import Link from "next/link"
 import { useRef, useState } from "react"
 
 export default function Nav() {
@@ -9,34 +9,34 @@ export default function Nav() {
     const menu = () => {
         if (icon == "burger") {
             setIcon(() => "remove")
-            navLink.current.classList.toggle('right-2')
+            navLink.current.classList.toggle('right-0')
         }
         else {
             setIcon(() => "burger")
-            navLink.current.classList.toggle('right-2')
+            navLink.current.classList.toggle('right-0')
         }
     }
 
     return (
-        <nav className="w-screen bg-black h-20 flex flex-row justify-between md:px-28 px-10 pt-10 md:items-center">
+        <nav className="w-auto bg-black h-20 flex flex-row justify-between md:px-28 px-10 pt-10 md:items-center">
             <div>
-                <span className="text-highlight text-lg font-semibold">CLL</span>
+                <Link href="/" className="text-highlight text-lg font-semibold">CLL</Link>
             </div>
-            <div className={`min-h-[100vh] duration-500 md:w-auto w-44 absolute md:min-h-fit md:p-0 pr-4
+            <div className={`min-h-[100vh] duration-500 md:w-auto w-44 absolute md:min-h-fit md:p-0 pr-10
                  md:static right-[-100%] top-24 bg-none backdrop-blur-sm  md:text-left text-right`} ref={navLink}>
 
                 <ul className="flex md:flex-row flex-col gap-10">
                     <li>
-                        <a href="#" className="nav-text">SKILLS</a>
+                        <Link href="/skills" className="nav-text">SKILLS</Link>
                     </li>
                     <li>
-                        <a href="#" className="nav-text">PROJECTS</a>
+                        <Link href="/" className="nav-text">PROJECTS</Link>
                     </li>
                     <li>
-                        <a href="#" className="nav-text">EXPEREINCE</a>
+                        <Link href="/" className="nav-text">EXPEREINCE</Link>
                     </li>
                     <li>
-                        <a href="#" className="nav-text">EDUCATION</a>
+                        <Link href="/" className="nav-text">EDUCATION</Link>
                     </li>
                 </ul>
             </div>

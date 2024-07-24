@@ -10,7 +10,6 @@ module.exports = {
       colors: {
         highlight: "#957D1A"
       },
-      
       fontFamily: {
         robotoflex: ['Roboto Flex', 'sans-serif'],
       },

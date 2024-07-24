@@ -4,11 +4,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,50,100..1000,67,382,71,854,-98,788,570,760&display=swap');
 
 body {
-  @apply bg-black font-robotoflex overflow-x-hidden max-h-screen max-w-[2500px] min-h-screen;
+  @apply bg-black font-robotoflex overflow-x-hidden 
+  min-h-screen max-w-[2500px] min-h-screen;
+}
+
+.internal {
+  @apply px-10 sm:px-16 md:px-28;
 }
 
 .nav-text {
   @apply text-white text-base font-extralight;
+}
+
+.skillCard{
+  @apply border-zinc-700 border-[1px] rounded-[5px];
+}
+
+.the-card{
+  transform-style: preserve-3d;
+  transition: all 0.3s ease;
+}
+
+.backface-hidden{
+  backface-visibility: hidden;
+}
+
+.rotatey-180{
+  transform: rotateY(180deg);
 }
 
 #quote {
