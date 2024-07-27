@@ -31,12 +31,12 @@ export default function Projects() {
                 {
                     filter == "All" ? Object.keys(projects).map(k => {
                         return Object.keys(projects[k]).map((t, index) => {
-                            return <Card key={index} title={t} images={projects[k][t]["Images"]}
+                            return <Card key={index} link={projects[k][t]["Link"]} title={t} images={projects[k][t]["Images"]}
                                 descriptions={projects[k][t]["Descriptions"]}></Card>
                         })
                     }) :
                         Object.keys(projects[filter]).map((t, index) => {
-                            return <Card key={index} title={t} images={projects[filter][t]["Images"]}
+                            return <Card key={index} link={projects[k][t]["Link"]} title={t} images={projects[filter][t]["Images"]}
                                 descriptions={projects[filter][t]["Descriptions"]}></Card>
                         })
                 }

@@ -1,18 +1,19 @@
 import "./globals.css";
 import Nav from "./nav";
-import Head from 'next/head'
 
 export const metadata = {
-  title: "next-lesson-app",
-  description: "MY first next.js app"
+  title: "Christian Lee Lunaba",
+  description: "Christian Lee Lunaba's Portfolio Website",
+  
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-      </Head>
+        <link rel="icon" href="/CLL.svg" sizes="any" />
+      </head>
       <body>
           <Nav></Nav>
           <div className="internal">

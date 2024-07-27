@@ -9,7 +9,7 @@ export default async function Home() {
       <div className="w-full flex-col flex gap-20 lg:w-2/3">
         <p className="text-white font-thin text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-right" id="quote">SHOOT FOR THE SKY THE STARS ARE WAITING</p>
         <div>
-          <p className="text-highlight text-right" >CHRISTIAN LEE LUNABA</p>
+          <p className="text-highlight text-right">CHRISTIAN LEE LUNABA</p>
           <p className="text-white text-right white-glow" id="description">MACHINE LEARNING/AI | FULL STACK | WEB SCRAPING | UI/UX  </p>
           <Contact></Contact>
         </div>

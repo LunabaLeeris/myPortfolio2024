@@ -46,7 +46,7 @@
             "Image": "\\tech\\firebase.svg",
             "Description": [
                 "I have a year of experience using Firebase, specifically its realtime database",
-                "I have also used other tools offered by it such as token based athentication and email dissimination"
+                "I have also used other tools offered by it such as token based athentication and email dissemination"
             ]
         }
     },
@@ -55,14 +55,14 @@
             "Image": "\\tech\\tensorflow.svg",
             "Description": [
                 "I have worked with tesorflow for 2 years, using it for machine learning and research projects",
-                "I have also experienced implementing tensorflow to work with the GPU for computationally extensive tasks"
+                "I have also experienced implementing tensorflow to work with the GPU for computationally intensive tasks"
             ]
         },
         "Numpy": {
             "Image": "\\tech\\numpy.svg",
             "Description": [
                 "I have 2 year of experience using numpy alongside tensorflow.",
-                "I specifically use numpy for CPU extensive tasks such as simple calculations and data plotting"
+                "I specifically use numpy for CPU intensive tasks such as simple calculations and data plotting"
             ]
         }
     },
@@ -71,7 +71,7 @@
         "Puppeteer": {
             "Image": "\\tech\\puppeteer.svg",
             "Description": [
-                "I have used puppeteer to scrape complex data that lives deep inside a website",
+                "I have used puppeteer to scrape complex data that live deep inside websites",
                 "Using it, I have scaped airline data, news data, social media data and e-commerce data"
             ]
         },

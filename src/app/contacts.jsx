@@ -10,13 +10,13 @@ export default function Contact() {
             <div className="flex flex-row justify-end gap-3 items-center">
                 <img onClick={() => router.push("https://www.linkedin.com/in/christianlee-lunaba-72229025b/")} 
                 className="cursor-pointer hover:translate-y-[-5px] opacity-70 hover:opacity-100 duration-100" src="\icons\linkedIn.svg"></img>
-                <img onClick={() => router.push("h  ttps://github.com/LunabaLeeris?tab=repositories")} 
+                <img onClick={() => router.push("https://github.com/LunabaLeeris?tab=repositories")} 
                 className="cursor-pointer hover:translate-y-[-5px]  opacity-70 hover:opacity-100 duration-100" src="\icons\github.svg"></img>
             </div>
-            <div onClick={() => router.push("https://www.linkedin.com/in/christianlee-lunaba-72229025b/")}  className="flex flex-row gap-2 justify-end cursor-pointer">
-                <img className="hover:translate-y-[-5px]  opacity-70 hover:opacity-100 duration-100"
+            <div onClick={() => router.push("https://www.linkedin.com/in/christianlee-lunaba-72229025b/")}  className="flex flex-row gap-2 justify-end">
+                <img className="cursor-pointer hover:translate-y-[-5px]  opacity-70 hover:opacity-100 duration-100"
                  src="\icons\download.svg"></img>   
-                <p className="text-zinc-400">Resume</p>
+                <p className="cursor-pointer text-zinc-400">Resume</p>
             </div>
             <div className="flex flex-row gap-2 justify-end">
                 <img className="opacity-80" src="\icons\call.svg"></img>

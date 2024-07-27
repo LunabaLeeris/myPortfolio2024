@@ -1,11 +1,13 @@
 'use client'
 
 import { useRef } from "react"
+import { useRouter } from "next/navigation"
 
-export default function Card({title, images, descriptions}) {
+export default function Card({link, title, images, descriptions}) {
     const wrapper = useRef()
     const description = useRef()
     const durations = ["slow", "medium", "fast"]
+    const router = useRouter()
 
     const slide = "slide-" + durations[(title.charCodeAt(0) * title.charCodeAt(1))%durations.length]
 
@@ -15,7 +17,7 @@ export default function Card({title, images, descriptions}) {
     }
 
     return (
-        <div onMouseEnter={toggleAnimation} onMouseLeave={toggleAnimation} className="card-container h-[500px] card-border cursor-pointer" >
+        <div onClick={() => router.push(link)} onMouseEnter={toggleAnimation} onMouseLeave={toggleAnimation} className="card-container h-[500px] card-border cursor-pointer" >
             <div className={"flex-row flex w-full relative"} ref={wrapper}>
                 {
                     images.map((p, i) => <img className={"object-cover " + slide} key={i} src={p}></img>)
