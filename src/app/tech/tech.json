@@ -1,0 +1,122 @@
+{
+    "Languages": {
+        "Python": {
+            "Image": "\\tech\\python.svg",
+            "Description": [
+                "I have 3 years of experience using python for game development, data scraping, data science and machine learning.",
+                "I am knowledgeable with its libraries such as kivy, pygame, tensorflow, numpy, matplotlib, beautiful soup, tkinter etc."
+            ]
+        },
+        "Java": {
+            "Image": "\\tech\\java.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Javascript": {
+            "Image": "\\tech\\javascript.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "C++": {
+            "Image": "\\tech\\cpp.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        }
+    },
+    "Database Management": {
+        "MySQL": {
+            "Image": "\\tech\\mysql.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Mongo DB": {
+            "Image": "\\tech\\mongodb.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Firebase": {
+            "Image": "\\tech\\firebase.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        }
+    },
+    "Machine Learning": {
+        "Tensorflow": {
+            "Image": "\\tech\\tensorflow.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Numpy": {
+            "Image": "\\tech\\numpy.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        }
+    },
+
+    "Data Scraping": {
+        "Puppeteer": {
+            "Image": "\\tech\\puppeteer.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Selenium": {
+            "Image": "\\tech\\selenium.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        }
+    },
+    "Web Development": {
+        "Next JS": {
+            "Image": "\\tech\\nextjs.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "React": {
+            "Image": "\\tech\\react.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Node JS": {
+            "Image": "\\tech\\nodejs.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Bootstrap": {
+            "Image": "\\tech\\bootstrap.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Tailwind": {
+            "Image": "\\tech\\tailwind.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "React Query": {
+            "Image": "\\tech\\reactquery.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        },
+        "Figma": {
+            "Image": "\\tech\\figma.svg",
+            "Description": [
+                "Test test test Test test test Test test test"
+            ]
+        }
+    }
+}

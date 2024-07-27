@@ -1,0 +1,32 @@
+{
+    "Web Development": {
+        "Python": {
+            "Images": ["\\1.jpg", "\\2.jpg", "\\profile.png"],
+            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        },
+        "Java": {
+            "Images": ["\\2.jpg", "\\1.jpg", "\\profile.png"],
+            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        },
+        "Something": {
+            "Images": ["\\profile.png", "\\1.jpg", "\\2.jpg"],
+            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        }
+    },
+
+    "Game Development": {
+
+    },
+
+    "Machine Learning": {
+
+    },
+
+    "Web Scraping": {
+
+    },
+
+    "UI/IX": {
+
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Freelance": {
+        "Companies": "Upwork | Fiverr",
+        "Duration" : "2022 - 2023",
+        "Sentences": ["Generated more than $250 in Fiverr and $200 in Upwork, working with different individuals in creating Java/Python applications and Websites."]
+    },
+    "Tutoring": {
+        "Companies": "Local",
+        "Duration" : "2022 - 2024",
+        "Sentences": ["Generated more than $700 Tutoring/Helping friends and colleagues learn programming and accomplish certain projects."]
+    },
+    "Private Projects": {
+        "Companies": "Confidential",
+        "Duration" : "2022-2024",
+        "Sentences": ["Generated up to  $500 doing private projects from different companies, both national and international, doing design and development"]
+    }
+}
