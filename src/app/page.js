@@ -1,3 +1,5 @@
+import Contact from "./contacts";
+
 export default async function Home() {
   return (
     <section className="flex flex-wrap py-[100px] h-fit bg-transparent items-center">
@@ -8,7 +10,8 @@ export default async function Home() {
         <p className="text-white font-thin text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-right" id="quote">SHOOT FOR THE SKY THE STARS ARE WAITING</p>
         <div>
           <p className="text-highlight text-right" >CHRISTIAN LEE LUNABA</p>
-          <p className="text-white text-right white-glow" id="description">FULL STACK | APP DEV | WEB SCRAPING | UI/UX | MACHINE LEARNING/AI  </p>
+          <p className="text-white text-right white-glow" id="description">MACHINE LEARNING/AI | FULL STACK | WEB SCRAPING | UI/UX  </p>
+          <Contact></Contact>
         </div>
       </div>
     </section>

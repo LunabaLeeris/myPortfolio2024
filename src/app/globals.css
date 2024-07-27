@@ -43,18 +43,22 @@ body {
 }
 
 #description {
-  background: linear-gradient(180deg, #FFF -102.59%, rgba(153, 153, 153, 0.38) 141.38%);
+  background: linear-gradient(180deg, #FFF -102.59%, rgba(239, 238, 238, 0.38) 141.38%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .card-container {
-  @apply w-full h-4/5 overflow-hidden relative;
+  @apply w-full h-[300px] overflow-hidden relative;
 }
 
 .card-wrapper {
-  @apply flex;
+  @apply flex flex-row w-full h-full;
+}
+
+.card-img {
+  @apply object-cover object-center;
 }
 
 .slide-slow{
@@ -69,17 +73,13 @@ body {
   animation: slide 20s steps(1) infinite;
 }
 
-.card-img {
-  @apply w-[100%];
-}
-
 .card-description {
-  @apply w-full h-full absolute top-full;
+  @apply w-full h-full absolute top-[85%];
   transition: all 0.1s ease;
 }
 
 .card-dsc-visible{
-  @apply top-0;
+  @apply top-0 bg-opacity-100;
   transition: all 0.2s ease;
 }
 

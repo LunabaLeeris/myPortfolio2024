@@ -27,7 +27,7 @@ export default function Tech() {
                     <option value="Web Development">Web Development</option>
                 </select>
             </div>
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 w-full gap-2">
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-2">
                 {
                     filter == "All" ? Object.keys(tech).map(k => {
                         return Object.keys(tech[k]).map((t, index) => {

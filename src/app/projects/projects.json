@@ -1,32 +1,150 @@
 {
     "Web Development": {
-        "Python": {
-            "Images": ["\\1.jpg", "\\2.jpg", "\\profile.png"],
-            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        "Pavement": {
+            "Images": [
+                "\\images\\P-1.png",
+                "\\images\\P-2.png",
+                "\\images\\P-3.png"
+            ],
+            "Descriptions": [
+                "A proposed microsoft application, made for a school project, with a goal to help microsoft train aspiring microsoft employees thorough courses and programs.",
+                "Trainee’s can join programs and recieve certificates once they finished the lessons. Trainers can create and modify programs. Made using Next js 15, HTML, CSS, React and React query."
+            ]
         },
-        "Java": {
-            "Images": ["\\2.jpg", "\\1.jpg", "\\profile.png"],
-            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        "Dentistry": {
+            "Images": [
+                "\\images\\D-1.png",
+                "\\images\\D-2.png",
+                "\\images\\D-3.png"
+            ],
+            "Descriptions": [
+                "A System proposal to aid one of the branches of our school’s Dentistry Program in recording their medical procedures.",
+                "Made using Node js, Javascript, Bootstrap and MySQL.",
+                "In total, there exist 3 User sides: ",
+                "Clinician which is the one responsible for operating the dentistry procedures. The Instructor which is the one responsible for monitoring the progress of the clinician and the admin or Chief Clinician which is responsible for monitoring the overall state of the entire dentistry program"
+            ]
         },
-        "Something": {
-            "Images": ["\\profile.png", "\\1.jpg", "\\2.jpg"],
-            "Descriptions": ["Sample Sample Sample", "ok ok"]
+        "Journalism Website": {
+            "Images": [
+                "\\images\\B-1.png",
+                "\\images\\B-2.png",
+                "\\images\\B-3.png"
+            ],
+            "Descriptions": [
+                "A Portfolio website I created for a Journalist consisting of 100+ articles from different categories such as environment, wild-life, space etc.",
+                "Made using React. Contents were scraped using puppeteer from a previous website hosting service he bought."
+            ]
         }
     },
-
+    "Data Scraping": {
+        "Current": {
+            "Images": [
+                "\\images\\C-1.png",
+                "\\images\\C-2.png",
+                "\\images\\C-3.png"
+            ],
+            "Descriptions": [
+                "A Python based Web scraper that scrapes news contents from various news websites to be displayed in a single app.",
+                "Scrapes the following websites: VOX, Time, BBC, New York Times, CNN, Manila Times, ABC News"
+            ]
+        },
+        "Kuwarentenas": {
+            "Images": [
+                "\\images\\K-1.png",
+                "\\images\\K-2.png",
+                "\\images\\K-3.png"
+            ],
+            "Descriptions": [
+                "An Infromation Center for Viruses such as Covid 19, Pertussis and Tuberculosis in the philippines.",
+                "Each Information was scraped from 5 different local news articles. Made using Javascript, Bootstrap, React and Firebase. An entry made for a competition."
+            ]
+        }
+    },
     "Game Development": {
-
+        "Enpassant": {
+            "Images": [
+                "\\images\\E-1.png",
+                "\\images\\E-2.png",
+                "\\images\\E-3.png"
+            ],
+            "Descriptions": [
+                "A typing game where you help a pawn escape hungry chess pieces. Type your way out before they catch you or Fight your way towards survival!",
+                "Made using python and kivy",
+                "All sprites, animation and music are custom made!"
+            ]
+        },
+        "Geomon": {
+            "Images": [
+                "\\images\\GM-1.png",
+                "\\images\\GM-2.png",
+                "\\images\\GM-3.png"
+            ],
+            "Descriptions": [
+                "An Aesthetic Game where it rains everyday. Collect all the hidden ancient debrit to restore the sun before the island sinks!",
+                "Made using python and kivy",
+                "All sprites, animation and music are custom made!"
+            ]
+        }
     },
-
+    "App Development": {
+        "Gabay": {
+            "Images": [
+                "\\images\\G-1.png",
+                "\\images\\G-2.png",
+                "\\images\\G-3.png"
+            ],
+            "Descriptions": [
+                "A flight navigator (simulation) created in java swing. Choose the countries you want to travel to and we'll provide you with all the possible paths completed with cost, duration and distance."
+            ]
+        },
+        "QuizIT": {
+            "Images": [
+                "\\images\\Q-1.png",
+                "\\images\\Q-2.png",
+                "\\images\\Q-3.png"
+            ],
+            "Descriptions": [
+                "A quiz maker made in Java/Java Swing.",
+                "It works by first placing a list of definition and answers, you then specify the type of questions you want (multiple-choice, identification, fill in the blanks etc.). Once done your quiz will be created",
+                "You can save your quizes for future usage and create multiple quizes for different subjects"
+            ]
+        }
+    },
     "Machine Learning": {
-
-    },
-
-    "Web Scraping": {
-
-    },
-
-    "UI/IX": {
-
+        "Digit Classification": {
+            "Images": [
+                "\\images\\DC-1.png",
+                "\\images\\DC-2.png",
+                "\\images\\DC-3.png"
+            ],
+            "Descriptions": [
+                "A Machine Learning Model implemented using Soft Max Regression that predicts a digit from 1-9",
+                "Made using python, numpy and tensorflow. Plotted using myplotlib"
+            ]
+        },
+        "Spam Email Classicification": {
+            "Images": [
+                "\\images\\SC-1.png",
+                "\\images\\SC-2.png",
+                "\\images\\SC-3.png"
+            ],
+            "Descriptions": [
+                "This is a case study on the effectiveness of two versions of Naive Bayes in learning to predict whether an email is a spam or not.",
+                "The model predicts whether an email is a SPAM or HAM by tracking the occurences of the words in the dataset",
+                "Made using python, numpy and tensorflow. Plotted using myplotlib"
+            ]
+        },
+        "Weather Prediction": {
+            "Images": [
+                "\\images\\WC-1.png",
+                "\\images\\WC-2.png",
+                "\\images\\WC-3.png"
+            ],
+            "Descriptions": [
+                "A Case study on the effectiveness of Gaussian Discriminant Analysis as implemented on a data for weather prediction",
+                "The model predicts the weather through the following parameters: Temperature, Humidity, Wind Speed, Precipitation, Cloud Cover, Athmospheric Pressure, UV Index, Season, Visibility and Location",
+                "Made using python, numpy and tensorflow. Plotted using myplotlib"
+            ]
+        }
     }
 }

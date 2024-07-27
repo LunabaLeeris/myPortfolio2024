@@ -10,19 +10,21 @@
         "Java": {
             "Image": "\\tech\\java.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have 4 years of experience using Java for creating applications and scripting.",
+                "I am knowledgeable with its libraries such as Java Swing and Java FX"
             ]
         },
         "Javascript": {
             "Image": "\\tech\\javascript.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have 2 years of experience using Javascript for Web Development and Data scraping",
+                "I use libraries associated with it such as Puppeteer, Next JS, Tailwind, Bootstrap, Node JS etc."
             ]
         },
         "C++": {
             "Image": "\\tech\\cpp.svg",
-            "Description": [
-                "Test test test Test test test Test test test"
+            "Description": [    
+                "I have 1 year of experience using C++ for competitive programing, https and windows socketing"
             ]
         }
     },
@@ -30,19 +32,21 @@
         "MySQL": {
             "Image": "\\tech\\mysql.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have used MySQL for 3 years now and has created simple to complex databases all satisfying the first to 4th normal forms",
+                "I have created databases for School System and Course Websites with scalability able to accommodate upto millions of users"
             ]
         },
         "Mongo DB": {
             "Image": "\\tech\\mongodb.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have a year of experience using MongoDB for portfolio websites."
             ]
         },
         "Firebase": {
             "Image": "\\tech\\firebase.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have a year of experience using Firebase, specifically its realtime database",
+                "I have also used other tools offered by it such as token based athentication and email dissimination"
             ]
         }
     },
@@ -50,13 +54,15 @@
         "Tensorflow": {
             "Image": "\\tech\\tensorflow.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have worked with tesorflow for 2 years, using it for machine learning and research projects",
+                "I have also experienced implementing tensorflow to work with the GPU for computationally extensive tasks"
             ]
         },
         "Numpy": {
             "Image": "\\tech\\numpy.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have 2 year of experience using numpy alongside tensorflow.",
+                "I specifically use numpy for CPU extensive tasks such as simple calculations and data plotting"
             ]
         }
     },
@@ -65,13 +71,15 @@
         "Puppeteer": {
             "Image": "\\tech\\puppeteer.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have used puppeteer to scrape complex data that lives deep inside a website",
+                "Using it, I have scaped airline data, news data, social media data and e-commerce data"
             ]
         },
         "Selenium": {
             "Image": "\\tech\\selenium.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I use Selenium as an alternative for puppeteer in python.",
+                "I have used selenium for creating bots to boost activities, simulate traffic and gather information updates about a website"
             ]
         }
     },
@@ -79,43 +87,48 @@
         "Next JS": {
             "Image": "\\tech\\nextjs.svg",
             "Description": [
-                "Test test test Test test test Test test test"
-            ]
+                "I have a year of experience using Next Js to create websites, and this is one of those",
+                "I use Next  JS alongside React with EsLint for linting, Tailwind for style and Firebase for authentication and database"
+            ]   
         },
         "React": {
             "Image": "\\tech\\react.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have 2 year of experience using React. I use react for almost every website I create"
             ]
         },
         "Node JS": {
             "Image": "\\tech\\nodejs.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have used Node JS for creating full stack websites for a year.",
+                "Although I already replaced it with Next JS, I still use it for simple websites"
             ]
         },
         "Bootstrap": {
             "Image": "\\tech\\bootstrap.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have a year of experience using Bootrap.",
+                "I use it for creating fast prototypes for simple websites"
             ]
         },
         "Tailwind": {
             "Image": "\\tech\\tailwind.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have a month of experience using Tailwind and I am still learning!",
+                "This is the first website where I used tailwind"
             ]
         },
         "React Query": {
             "Image": "\\tech\\reactquery.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have a year of experience using React Query and I mostly Use it for data fetching"
             ]
         },
         "Figma": {
             "Image": "\\tech\\figma.svg",
             "Description": [
-                "Test test test Test test test Test test test"
+                "I have 2 years of experience using Figma for all sorts of creative endevours.",
+                "I use it to design websites, create logos, posters, resumes and so on."
             ]
         }
     }
