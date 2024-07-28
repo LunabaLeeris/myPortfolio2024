@@ -13,6 +13,7 @@ export default function Nav() {
         if (icon == "burger") {
             setIcon(() => "remove")
             navLinkSm.current.classList.toggle('opacity-100')
+            navLinkSm.current.classList.toggle('duration-100')
             navLinkLg.current.classList.toggle('opacity-100')
             navLinkLg.current.classList.toggle('pointer-events-auto')
             navLinkSm.current.classList.toggle('pointer-events-auto')
@@ -20,6 +21,7 @@ export default function Nav() {
         else {
             setIcon(() => "burger")
             navLinkSm.current.classList.toggle('opacity-100')
+            navLinkSm.current.classList.toggle('duration-100')
             navLinkLg.current.classList.toggle('opacity-100')
             navLinkLg.current.classList.toggle('pointer-events-auto')
             navLinkSm.current.classList.toggle('pointer-events-auto')
@@ -31,7 +33,7 @@ export default function Nav() {
             <div>
                 <p onClick={() => router.push("/")}  className="text-highlight text-lg cursor-pointer select-none"><b>CLL</b></p>
             </div>
-            <div className={`min-h-[100vh] duration-200 md:w-auto w-44 absolute md:min-h-fit md:p-0 pr-10
+            <div className={`min-h-[100vh] md:w-auto w-44 absolute md:min-h-fit md:p-0 pr-10
                  md:static right-0 opacity-0 md:opacity-100 md:pointer-events-auto pointer-events-none top-24 bg-opacity-85 bg-black md:text-left text-right z-50`} ref={navLinkSm}>
                 <ul className="flex md:flex-row flex-col gap-10 content-center">
                     <li>
@@ -54,7 +56,7 @@ export default function Nav() {
                     </li>
                     <div className="md:block hidden relative w-[25px]">
                         <Image alt="Menu Button" src={`\\icons\\${icon}.svg`} onClick={menu} width={24} height={24} className="cursor-pointer"></Image>
-                        <ul className="absolute flex-col py-2 px-5 bg-opacity-90 rounded-sm bg-black 
+                        <ul className="absolute flex flex-col py-2 px-5 bg-opacity-90 rounded-sm bg-black 
                         text-right gap-5 mt-5 duration-75 opacity-0 pointer-events-none right-0" ref={navLinkLg}>
                             <li className="hidden md:block">
                                 <p onClick={() => router.push("/experience")}  className="nav-text">EXPERIENCE</p>
