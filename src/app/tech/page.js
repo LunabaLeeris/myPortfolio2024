@@ -10,7 +10,7 @@ export default function Tech() {
     return (
         <div className="min-h-screen flex-col">
             <h1 className="text-white mt-16 text-2xl w-full text-center mb-1">TECHNOLOGIES</h1>
-            <p className="text-zinc-500 w-full text-center mb-16 text-sm">Click cards to see what's inside</p>
+            <p className="text-zinc-500 w-full text-center mb-16 text-sm">Click cards to see what&apos;s inside</p>
             <div className="w-full flex justify-end mb-5">
                 <select
                     className="dropdown bg-black text-zinc-500 card-border rounded-0 p-1 cursor-pointer outline-0"

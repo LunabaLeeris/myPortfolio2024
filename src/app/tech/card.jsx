@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image"
 import { useRef } from "react"
 
 export default function Card({ image, title, description }) {
@@ -14,7 +15,7 @@ export default function Card({ image, title, description }) {
             <div onClick={rotate} className="card-border absolute w-full h-full the-card" ref={card}>
                 <div className="absolute w-full h-full content-center backface-hidden">
                     <div className="flex flex-col items-center opacity-70 hover:opacity-100 duration-75 gap-3">
-                        <img className="w-24" src={image}></img>
+                        <Image alt="card image logo" width={96} height={96} src={image}></Image>
                         <p className="text-zinc-400 font-light">{title}</p>
                     </div>
                 </div>

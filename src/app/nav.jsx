@@ -1,6 +1,7 @@
 'use client'
 import { useRef, useState } from "react"
 import { useRouter } from "next/navigation"
+import Image from "next/image"
 
 export default function Nav() {
     const [icon, setIcon] = useState("burger")
@@ -52,7 +53,7 @@ export default function Nav() {
                         <p onClick={() => router.push("/achievement")}  className="nav-text">ACHIEVEMENT</p>
                     </li>
                     <div className="md:block hidden relative w-[25px]">
-                        <img src={`\\icons\\${icon}.svg`} onClick={menu} className="cursor-pointer"></img>
+                        <Image alt="Menu Button" src={`\\icons\\${icon}.svg`} onClick={menu} width={24} height={24} className="cursor-pointer"></Image>
                         <ul className="absolute flex-col py-2 px-5 bg-opacity-90 rounded-sm bg-black 
                         text-right gap-5 mt-5 duration-75 opacity-0 pointer-events-none right-0" ref={navLinkLg}>
                             <li className="hidden md:block">
@@ -68,7 +69,7 @@ export default function Nav() {
                     </div>
                 </ul>
             </div>
-            <img src={`\\icons\\${icon}.svg`} onClick={menu} className="md:hidden duration-300 cursor-pointer"></img>
+            <Image alt="Menu Button" src={`\\icons\\${icon}.svg`} width={32} height={32} onClick={menu} className="md:hidden duration-300 cursor-pointer"></Image>
         </nav>
     )
 }

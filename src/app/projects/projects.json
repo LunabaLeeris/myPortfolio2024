@@ -2,9 +2,9 @@
     "Web Development": {
         "Pavement": {
             "Images": [
-                "\\images\\P-1.png",
-                "\\images\\P-2.png",
-                "\\images\\P-3.png"
+                "/images/P-1.png",
+                "/images/P-2.png",
+                "/images/P-3.png"
             ],
             "Descriptions": [
                 "A proposed microsoft application, made for a school project, with a goal to help microsoft train aspiring microsoft employees thorough courses and programs.",
@@ -14,9 +14,9 @@
         },
         "Dentistry": {
             "Images": [
-                "\\images\\D-1.png",
-                "\\images\\D-2.png",
-                "\\images\\D-3.png"
+                "/images/D-1.png",
+                "/images/D-2.png",
+                "/images/D-3.png"
             ],
             "Descriptions": [
                 "A System proposal to aid one of the branches of our school’s Dentistry Program in recording their medical procedures.",
@@ -28,9 +28,9 @@
         },
         "Journalism Website": {
             "Images": [
-                "\\images\\B-1.png",
-                "\\images\\B-2.png",
-                "\\images\\B-3.png"
+                "/images/B-1.png",
+                "/images/B-2.png",
+                "/images/B-3.png"
             ],
             "Descriptions": [
                 "A Portfolio website I created for a Journalist consisting of 100+ articles from different categories such as environment, wild-life, space etc.",
@@ -42,9 +42,9 @@
     "Data Scraping": {
         "Current": {
             "Images": [
-                "\\images\\C-1.png",
-                "\\images\\C-2.png",
-                "\\images\\C-3.png"
+                "/images/C-1.png",
+                "/images/C-2.png",
+                "/images/C-3.png"
             ],
             "Descriptions": [
                 "A Python based Web scraper that scrapes news contents from various news websites to be displayed in a single app.",
@@ -54,9 +54,9 @@
         },
         "Kuwarentenas": {
             "Images": [
-                "\\images\\K-1.png",
-                "\\images\\K-2.png",
-                "\\images\\K-3.png"
+                "/images/K-1.png",
+                "/images/K-2.png",
+                "/images/K-3.png"
             ],
             "Descriptions": [
                 "An Infromation Center for Viruses such as Covid 19, Pertussis and Tuberculosis in the philippines.",
@@ -68,9 +68,9 @@
     "Game Development": {
         "Enpassant": {
             "Images": [
-                "\\images\\E-1.png",
-                "\\images\\E-2.png",
-                "\\images\\E-3.png"
+                "/images/E-1.png",
+                "/images/E-2.png",
+                "/images/E-3.png"
             ],
             "Descriptions": [
                 "A typing game where you help a pawn escape hungry chess pieces. Type your way out before they catch you or Fight your way towards survival!",
@@ -81,9 +81,9 @@
         },
         "Geomon": {
             "Images": [
-                "\\images\\GM-1.png",
-                "\\images\\GM-2.png",
-                "\\images\\GM-3.png"
+                "/images/GM-1.png",
+                "/images/GM-2.png",
+                "/images/GM-3.png"    
             ],
             "Descriptions": [
                 "An Aesthetic Game where it rains everyday. Collect all the hidden ancient debris to restore the sun before the island sinks!",
@@ -96,21 +96,21 @@
     "App Development": {
         "Gabay": {
             "Images": [
-                "\\images\\G-1.png",
-                "\\images\\G-2.png",
-                "\\images\\G-3.png"
+                "/images/G-1.png",
+                "/images/G-2.png",
+                "/images/G-3.png"
             ],
             "Descriptions": [
-                "A flight navigator (simulation) created in java swing. Choose the countries you want to travel to and we'll provide you with all the possible paths completed with cost, duration and distance.",
+                "A flight navigator (simulation) created in java swing. Choose the countries you want to travel to and we&apos;ll provide you with all the possible paths completed with cost, duration and distance.",
                 "The program involves calculating distance, fastest routes, cheapest costs and number of detours. Baggages are calculated, discounts are considered and reciepts are generated"
             ],
             "Link": "https://github.com/LunabaLeeris/Gabay"
         },
         "QuizIT": {
             "Images": [
-                "\\images\\Q-1.png",
-                "\\images\\Q-2.png",
-                "\\images\\Q-3.png"
+                "/images/Q-1.png",
+                "/images/Q-2.png",
+                "/images/Q-3.png"
             ],
             "Descriptions": [
                 "A quiz maker made in Java/Java Swing.",
@@ -123,9 +123,9 @@
     "Machine Learning": {
         "Digit Classification": {
             "Images": [
-                "\\images\\DC-1.png",
-                "\\images\\DC-2.png",
-                "\\images\\DC-3.png"
+                "/images/DC-1.png",
+                "/images/DC-2.png",
+                "/images/DC-3.png"
             ],
             "Descriptions": [
                 "A Machine Learning Model implemented using Soft Max Regression that predicts a digit from 1-9",
@@ -135,9 +135,9 @@
         },
         "Spam Email Classicification": {
             "Images": [
-                "\\images\\SC-1.png",
-                "\\images\\SC-2.png",
-                "\\images\\SC-3.png"
+                "/images/SC-1.png",
+                "/images/SC-2.png",
+                "/images/SC-3.png"
             ],
             "Descriptions": [
                 "This is a case study on the effectiveness of two versions of Naive Bayes in learning to predict whether an email is a spam or not.",
@@ -148,9 +148,9 @@
         },
         "Weather Prediction": {
             "Images": [
-                "\\images\\WC-1.png",
-                "\\images\\WC-2.png",
-                "\\images\\WC-3.png"
+                "/images/WC-1.png",
+                "/images/WC-2.png",
+                "/images/WC-3.png"
             ],
             "Descriptions": [
                 "A Case study on the effectiveness of Gaussian Discriminant Analysis as implemented on a data for weather prediction",

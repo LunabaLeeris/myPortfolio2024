@@ -1,7 +1,7 @@
 'use client'
 
-import { useState } from "react";
-import Card from "./projectCard";
+import { useState } from "react"
+import Card from "./projectCard"
 import projects from "./projects.json"
 
 export default function Projects() {
@@ -10,7 +10,7 @@ export default function Projects() {
     return (
         <div className="min-h-screen flex-col">
             <h1 className="text-white mt-16 text-2xl w-full text-center mb-1">NOTABLE PROJECTS</h1>
-            <p className="text-zinc-500 w-full text-center mb-16 text-sm">Hover on cards to see what's inside | Click to visit</p>
+            <p className="text-zinc-500 w-full text-center mb-16 text-sm">Hover on cards to see what&apos;s inside | Click to visit</p>
             <div className="w-full flex justify-end mb-5">
                 <select
                     className="dropdown bg-black text-zinc-500 card-border rounded-0 p-1 cursor-pointer outline-0"

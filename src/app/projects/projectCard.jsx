@@ -2,14 +2,15 @@
 
 import { useRef } from "react"
 import { useRouter } from "next/navigation"
+import Image from "next/image"
 
-export default function Card({link, title, images, descriptions}) {
+export default function Card({ link, title, images, descriptions }) {
     const wrapper = useRef()
     const description = useRef()
     const durations = ["slow", "medium", "fast"]
     const router = useRouter()
 
-    const slide = "slide-" + durations[(title.charCodeAt(0) * title.charCodeAt(1))%durations.length]
+    const slide = "slide-" + durations[(title.charCodeAt(0) * title.charCodeAt(1)) % durations.length]
 
     const toggleAnimation = () => {
         wrapper.current.classList.toggle(slide)
@@ -18,9 +19,13 @@ export default function Card({link, title, images, descriptions}) {
 
     return (
         <div onClick={() => router.push(link)} onMouseEnter={toggleAnimation} onMouseLeave={toggleAnimation} className="card-container h-[500px] card-border cursor-pointer" >
-            <div className={"flex-row flex w-full relative"} ref={wrapper}>
-                {
-                    images.map((p, i) => <img className={"object-cover " + slide} key={i} src={p}></img>)
+            <div className={"flex-row flex w-[300%] h-[300px] relative"} ref={wrapper}>
+                {   
+                    images.map((p, i) =>
+                        <div key={i} className={"w-[300%] h-[300px] relative " + slide}>
+                            <Image alt="Project Image" src={p} fill className={"object-cover"}></Image>
+                        </div>
+                    )
                 }
             </div>
             <div className="bg-black bg-opacity-85 card-description p-4" ref={description}>
