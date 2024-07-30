@@ -36,7 +36,7 @@ export default function Projects() {
                         })
                     }) :
                         Object.keys(projects[filter]).map((t, index) => {
-                            return <Card key={index} link={projects[k][t]["Link"]} title={t} images={projects[filter][t]["Images"]}
+                            return <Card key={index} link={projects[filter][t]["Link"]} title={t} images={projects[filter][t]["Images"]}
                                 descriptions={projects[filter][t]["Descriptions"]}></Card>
                         })
                 }
