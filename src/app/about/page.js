@@ -10,7 +10,7 @@ export default function About() {
             <div className="w-5/6 md:w-4/6">
                 <p className="text-zinc-400 text-base font-light mt-3">
                     Hi! I&apos;m <b className="text-highlight">Christian Lee Lunaba</b>.
-                    I am currently a 3rd year, BS-CS student at National University-Manila
+                    I graduated Magna Cum Laude, BS-CS student at National University-Manila
                     specializing in Machine Learning.
                 </p>
                 <p className="text-zinc-400 text-base font-light mt-3">
